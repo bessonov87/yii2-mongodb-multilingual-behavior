@@ -1,0 +1,22 @@
+{
+    "name": "bessonov87/yii2-mongodb-multilingual-behavior",
+    "description": "yii2-multilingual-behavior for mongodb",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "yii2-mongodb-multilingual-behavior", "behavior", "multilingual", "i18"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "Sergey Bessonov",
+            "email": "bessonov87@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "bessonov87\\multilingual\\": "src"
+        }
+    },
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-mongodb": "~2.0"
+    }
+}
